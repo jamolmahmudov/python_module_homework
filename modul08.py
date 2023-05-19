@@ -1,5 +1,5 @@
 # Convert an angle from degrees to radians
-import math
+from math import degrees,radians
 
 def convert_degrees_to_radians(degrees):
     """
@@ -11,3 +11,6 @@ def convert_degrees_to_radians(degrees):
     Returns:
         float: The angle in radians.
     """
+    a=(radians(degrees))
+    return a
+print(convert_degrees_to_radians(45))
