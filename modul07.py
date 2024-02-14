@@ -12,5 +12,6 @@ def calculate_ceiling_floor(number):
         tuple: A tuple containing the ceiling and floor values of the number.
     """
     a=(floor(number),ceil(number))
+    
     return a
 print(calculate_ceiling_floor(4.5))
