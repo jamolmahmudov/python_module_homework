@@ -13,5 +13,6 @@ def calculate_logarithm(number, base):
         float: The logarithm of the number to the specified base.
     """
     a=log(number,base)
+    
     return a
 print(calculate_logarithm(9,3))
