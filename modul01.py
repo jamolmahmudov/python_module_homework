@@ -13,4 +13,4 @@ def calculate_ceiling_floor(number):
     """
     a=(floor(number),ceil(number))
     return a
-print(calculate_ceiling_floor(2.5))
+print(calculate_ceiling_floor(2.6))
