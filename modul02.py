@@ -12,5 +12,6 @@ def calculate_factorial(number):
         int: The factorial of the given number.
     """
     a=factorial(number)
+    
     return a
 print(calculate_factorial(5))
